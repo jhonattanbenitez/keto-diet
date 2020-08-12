@@ -1,33 +1,40 @@
-{
-    "days": [
-      {
-          "id": "1",
-          "day": "lunes"
-      },
-      {
-        "id": "2",
-        "day": "martes"
-      },
-      {
-        "id": "3",
-        "day": "miercoles"
-      },
-      {
-        "id": "4",
-        "day": "jueves"
-      },
-      {
-        "id": "5",
-        "day": "viernes"
-      },
-      {
-        "id": "6",
-        "day": "sabado"
-      },
-      {
-        "id": "7",
-        "day": "doming"
-      }
+[
 
-    ]
-}
+  {
+      "id": 1,
+      "day": "Lunes",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/06/Keto_Chicken_Pesto_Stew_with_Zucchini_Pasta_2.2.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 2,
+      "day": "Martes",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/05/Keto-Cheese-Tortilla-Beef-Burritos-v.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 3,
+      "day": "Miércoles",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/06/Quick-Keto-Tuna-Zoodle-Salad_v.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 4,
+      "day": "Jueves",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/07/Crustless-Broccoli-Quiche-v.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 5,
+      "day": "Viernes",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/07/keto-meatloaf-pesto-mayo-v-2.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 6,
+      "day": "Sábado",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/07/Asian-chicken-stir-fry-with-spicy-mayo-v.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  },
+  {
+      "id": 7,
+      "day": "Domingo",
+      "img_url": "https://i.dietdoctor.com/wp-content/uploads/2020/07/Asian-chicken-stir-fry-with-spicy-mayo-v.jpg?auto=compress%2Cformat&w=300&h=450&fit=crop"
+  }
+
+
+]

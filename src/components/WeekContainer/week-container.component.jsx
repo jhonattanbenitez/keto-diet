@@ -2,20 +2,17 @@ import React from "react";
 import "./week-container.styles.scss";
 import Week from "../week/week.component";
 
-class WeekContainer extends React.Component {
-  render() {
-    const week = [
-      "Lunes",
-      "martes",
-      "miercoles",
-      "jueves",
-      "viernes",
-      "sabado",
-      "domingo",
-    ];
-    const days = week.map(day => <Week key={day.toString()} value={day} />)
+const WeekContainer = (props) => {
    
-    return <div className="card-flex-wrapper">{days}</div>;
-  }
+  return (
+    <div className="card-list">
+      {
+        props.week.map(day => (
+          <Week key={day.id} day={day}/>
+        ))
+      }
+    </div>
+  )
 }
+
 export default WeekContainer;

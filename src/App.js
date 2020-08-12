@@ -1,22 +1,25 @@
 import React from 'react';
 import './App.css' 
 import WeekContainer from './components/WeekContainer/week-container.component';
-
+import days from './days.json'
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
-      weekdays: []
-    }  
+      week: []
+      
+    }; 
     
     
+  }
+  componentDidMount() {
+    this.setState({ week: days })
   }
   render() {
     return (
       <div>
-        <h1>Hola</h1>
-        <WeekContainer />
+      <WeekContainer week={this.state.week} />
       </div>
     )
   }
