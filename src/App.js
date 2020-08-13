@@ -11,7 +11,7 @@ class App extends React.Component {
       
     }; 
     
-    
+   
   }
   componentDidMount() {
     this.setState({ week: days })
@@ -19,6 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1>KETO DIET</h1>
       <WeekContainer week={this.state.week} />
       </div>
     )
